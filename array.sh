@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "my array deatils"
-names=("siva" "sri" "harika" "pesi")
+declare -a names=("siva" "sri" "harika" "pesi")
 echo "1--> ${names[0]}"
 echo "2--> ${names[1]}"
 echo "3--> ${names[2]}"
