@@ -17,7 +17,7 @@ result1=$(echo $?)
 echo $command | grep -i remove
 result2=$(echo $?)
 
-if [[ $result1 -eq 0 || $result2 -eq 0 ]]
+if [ $result1 -eq 0 || $result2 -eq 0 ]
 then
     UID=$(id -u)
     if [ $UID -eq 0 ]
