@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Enter the value less than or equal to 10 :"
 read x
-if [ $x <= 10 ]
+if [ $x -le 10 ]
 then
     echo "you entered value <=10...Nice"
 else
